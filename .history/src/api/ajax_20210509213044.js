@@ -10,8 +10,6 @@
 import axios from "axios"
 import {message} from "antd"
 
-
-
 //传入发请求的3个参数  url  data指定默认值如果用不到的话 type默认get
 export default function ajax(url,data={},type="GET"){
     return new Promise((resolve,reject)=>{
